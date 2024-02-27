@@ -10,7 +10,7 @@ for _ in range(n_cases):
     p = int(line[1])
     g = int(line[2])
 
-    if a >=0 or p >= 0 or g>= 0:
+    if a >=0 and p >= 0 and g>= 0:
         total1 = (int(line[0]) * 31) * 0.05
 
         total2 = (int(line[1]) * 15) * 0.10
